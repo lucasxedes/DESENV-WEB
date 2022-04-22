@@ -1,14 +1,25 @@
 .App form{
   width: 300px;
   margin: 80px auto;
+  max-width: 992px;
+  align-items: center;
+  display: block;
+  flex-direction: column;
+  width: 100%;
 }
 
 .form-control-group{
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .form-control-group label{
+  display: flex;
   margin-bottom: 5px;
+  background-color: #ffd000;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: space-between;
+  width: 100%;
 }
